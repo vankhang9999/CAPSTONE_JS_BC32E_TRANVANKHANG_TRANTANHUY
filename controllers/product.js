@@ -12,3 +12,22 @@ function ProDuct(){
     this.feature='';
     this.image='';
 }
+function Data(){
+    this.email='';
+    this.password='';
+    this.name='';
+    this.gender=true;
+    this.phone='';
+
+
+    layGioiTinh=(gender)=>{
+         
+        for(const i in gender){
+            if(gender[i].checked===true){
+                if(gender[i].value==='true'){
+                    return true
+                }return false
+            }
+        }
+       }
+}

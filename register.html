@@ -76,40 +76,48 @@
           </div>
         </div>
       </section>
-      <!-- <form action="#">
-        <div class="form-group">
-          <div class="form-control">
-            <input type="email" name="email" id="email" placeholder="email">
+      <form action="#">
+       <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-sm-12">
+            <div class="form-group">
+              <div class="form-control">
+                <input type="email" name="email" id="email" placeholder="email">
+              </div>
+    
+    
+              <div class="form-control">
+                <input type="password" id="password" placeholder="password">
+              </div>
+              
+              <div class="form-control">
+                <input type="password" id="password1" placeholder="password confirm">
+              </div>
+            </div>
           </div>
-
-
-          <div class="form-control">
-            <input type="password" id="password" placeholder="password">
-          </div>
-          
-          <div class="form-control">
-            <input type="password" id="password1" placeholder="password confirm">
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="form-control">
-            <input type="text" id="nameID" placeholder="name">
-          </div>
-          <div class="form-control">
-             <input type="text" id="PhoneID" placeholder="phone">
-          </div>
-          <div class="form-control gt">
-            <div class="SEX  d-block">
-              <span>Gender</span>
-              <label><input type="radio" value="true" name="gt">Male</label>
-              <label><input type="radio" value="false" name="gt">Female</label>
+          <div class="col-xl-6 col-sm-12">
+            <div class="form-group">
+              <div class="form-control">
+                <input type="text" id="nameID" placeholder="name">
+              </div>
+              <div class="form-control">
+                 <input type="text" id="PhoneID" placeholder="phone">
+              </div>
+              <div class="form-control gt">
+                <div class="SEX  d-block">
+                  <label for="gender">Gender</label>
+                  <label><input type="radio" value="true" name="gender">Male</label>
+                  <label><input type="radio" value="false" name="gender">Female</label>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+       </div>
       </form>
       <div class="submit">
-        <input type="submit" value="Submit">
-      </div> -->
+        <input type="submit" id="submit" value="Submit">
+      </div>
       <footer class="footer"></footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -134,5 +142,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="./controllers/product.js"></script>
+    <script src="./controllers/register.js"></script>
   </body>
 </html>
