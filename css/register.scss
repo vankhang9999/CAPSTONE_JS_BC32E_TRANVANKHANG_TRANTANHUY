@@ -44,78 +44,70 @@
         }
     }
 }
-
-
-
-// form{
-//     margin-top: 50px;
-//     display: flex;
-//     justify-content: center;
-//     .form-group{
-//         width: 30%;
-//         margin: 20px;
-//         .form-control{
-//             border: none;
-//             border-radius: 0%;
-//             border-bottom: 3px solid #AE18E2;
-//             margin-bottom:  40px;
-//            input{
-//             width: 70%;
-//             outline: 0;
-//             border: 0;
-//             &::placeholder{
-//                 color: #000000;
-//                 font-size: 25px;
+form{
+    margin-top: 50px;
+    // display: flex;
+    // justify-content: center;
+    .form-group{
+        width: 100%;
+        margin: 20px;
+        .form-control{
+            border: none;
+            border-radius: 0%;
+            border-bottom: 3px solid #AE18E2;
+            margin-bottom:  40px;
+            background-color: none;
+           input{
+            width: 100%;
+            background-color: transparent;
+            outline: 0;
+            border: 0;
+            &::placeholder{
+                color: #000000;
+                font-size: 25px;
                 
-//             }
-//            }
-//         }
-//         .gt{
-//             display: flex;
-//             border: none;
-//             align-items: center;
-//             .SEX{
-//                 input{
-//                     width: 30px;
-//                     height: 30px;
-//                     font-size: 30px;
-//                     border-radius: 10px;
-//                     margin: 10px ;
-//                     padding: 10px;
-//                 }
+            }
+           }
+        }
+        .gt{
+            display: flex;
+            border: none;
+            align-items: center;
+            font-size: 25px;
+            font-weight: 500;
+            color: #000000;
+            .SEX{
+                input{
+                    width: 30px;
+                    height: 30px;
+                    font-size: 30px;
+                    border-radius: 10px;
+                    margin: 10px ;
+                    padding: 10px;
+                    
+                }
                
-//                }
-//         }
-//     }
-// }
-// .submit{
-//     text-align: center;
-//     font-size: 30px;
-//     input{
-//         background-color: #AE18E2;
-//         padding: 10px 50px;
-//         color: white;
-//         border: none;
-//         outline: none;
-//     }
-// }
-
-
-
-
-
-
-
-
-
-
-
+               }
+        }
+    }
+}
+.submit{
+    text-align: center;
+    font-size: 25px;
+    input{
+        background-color: #AE18E2;
+        padding: 10px 50px;
+        color: white;
+        border: none;
+        outline: none;
+    }
+}
 .footer{
     background-image: url(../img/image\ 8.png);
     height: 350px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 500px;
+    margin-top: 50px;
     
 }
